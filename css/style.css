@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+h1 {
+	color: blue;
+	transition: 0.8s;
+}
+
+h1:hover {
+	color: pink;
+	font-size: 20px;
+}
+
+p {
+	color: purple;
+}
+body {
+	
+
+	margin: 0px;
+	font-family: 'Dancing Script', cursive;
+
+	background: silver;
+
+}
+
+.circle{
+	position:absolute;
+	border-radius: 50%;
+	background: #fff;
+	animation: ripple 10s infinite;
+	box-shadow: 0px 0px opx #508fb9 ;
+}
+
+.small{
+	width: 600px;
+	height: 600px;
+	left: -300px;
+	bottom: -300px;
+
+}
+
+.medium{
+	width:800px;
+	height: 800px;
+	left: -400px;
+	bottom: -400px;
+
+}
+
+.large{
+	width: 1000px;
+	height: 1000px;
+	left: -500px;
+	bottom: -500px;
+}
+.shade1{
+	opacity: 0.7;
+
+}
+.shade2{
+	opacity: 0.5;
+
+}
+.shade3{
+	opacity: 0.2
+	@keyframes ripple
+	0%{
+		transform: scale(0.8);
+	}
+	@keyframes ripple
+	0%{
+		transform: scale(0.8);
+	}
+@keyframes ripple
+	50%{
+		transform: scale(1.2);
+	}
+	@keyframes ripple
+	100%{
+		transform: scale(0.8);
+	}
+}
+
+
+
+
+
+
+
+
+table, th, td {
+	border: 1px solid;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+.box3 img {
+	width: 70px;
+	
+}
+
+
+.container{
+	background: yellow;
+	width: 50%;
+	height: 100px;
+	display: inline-block;
+
+}
+
+.box{
+	background: white;
+	width: 49%;
+	height: 100px;
+	display: inline-block;
+
+}
+
+.box3{
+	width: 100%;
+	background: orange;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	display: flex;
+	padding: 20px 0 0 20px;
+	
+}
+
+.box4{
+	padding-top: 120px;
+	width: 100%;
+	background: turquoise;
+	height: 300px;
+}
+
+.box2{
+	position: sticky;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 30px;
+}
+
+.demobox{
+	width: 100px;
+	height: 100px;
+	background: red;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+
+.box3 ul{
+	list-style: none;
+}
+
+.box3 li{
+	color: white;
+    display: inline-block;
+    font-size: 10px;
+    padding-right: 25px;
+}
+
+.flex-container{
+	background: DodgerBlue;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.content{
+	background: yellow;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 20px;
+}
+
+.navcontent{
+	position: relative;
+	left: 60%;
+}
+
+.logo{
+	position: relative;
+	left: 15%;
+}
+
